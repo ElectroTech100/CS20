@@ -9,7 +9,7 @@ public class Digits {
 		int ones;
 		int tens;
 		int num;
-		int faketen;
+		int tensplace;
 				
 				
 		//Create Scanner object
@@ -21,12 +21,12 @@ public class Digits {
 				
 		// the math
 		tens = (num / 10) * 10;
-		faketen = num / 10;
-		ones = num - (faketen * 10);
-				
-		//Display the two-digit number in both the tens-place and the ones-place
-		System.out.println("The ones-place of " + num + " is: " + ones);
-		System.out.println("The tens-place of " + num + " is: " + faketen + " or " + tens);
+		tensplace = num / 10;
+		ones = num - (tensplace * 10);
+		
+		//Output
+	    System.out.println("The tens-place of " + num + " is: " + tensplace + " or " + tens);
+	    System.out.println("The ones-place of " + num + " is: " + ones);
 				
 
 	}
