@@ -23,8 +23,12 @@ public class Rectangle {
 		width = userinput.nextInt();
 		
 		//Display the length and with
-		System.out.print("Length is : " + length);
-		System.out.print("Width is : " + width);
+		System.out.println("Length is : " + length);
+		System.out.println("Width is : " + width);
+		
+		int area = length * width;
+		
+		System.out.print("Area is :" + area);
 	}
 
 }
