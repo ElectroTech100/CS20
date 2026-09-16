@@ -18,25 +18,37 @@ public class GradeAvg {
 		Scanner userinput = new Scanner(System.in);
 		
 		
-		System.out.println("Enter 1st Grade : ");
+		System.out.print("Enter 1st Grade : ");
 		Grade1 = userinput.nextInt();
 		
-		System.out.println("Enter 2nd Grade : ");
+		System.out.print("Enter 2nd Grade : ");
 		Grade2 = userinput.nextInt();
 		
-		System.out.println("Enter 3rd Grade : ");
+		System.out.print("Enter 3rd Grade : ");
 		Grade3 = userinput.nextInt();
 		
-		System.out.println("Enter 4rth Grade : ");
+		System.out.print("Enter 4rth Grade : ");
 		Grade4 = userinput.nextInt();
 		
-		System.out.println("Enter 5th Grade : ");
+		System.out.print("Enter 5th Grade : ");
 		Grade5 = userinput.nextInt();
 		
 		int Average = (Grade1 + Grade2 + Grade3 + Grade4 + Grade5) / 5 ; 
 		
 		System.out.println("Your Average is : " + Average );
 		
+		
+		
+		/*
+		 * ScreenDump
+		  	
+		 *  Enter 1st Grade : 99
+			Enter 2nd Grade : 54
+			Enter 3rd Grade : 77
+			Enter 4rth Grade : 13
+			Enter 5th Grade : 100
+			Your Average is : 68
+		 */
 		
 			
 	}
