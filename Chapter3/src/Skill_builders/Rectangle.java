@@ -22,13 +22,17 @@ public class Rectangle {
 		System.out.print("Enter Width : ");
 		width = userinput.nextInt();
 		
-		//Display the length and with
+		//Display the length and width
 		System.out.println("Length is : " + length);
 		System.out.println("Width is : " + width);
 		
 		int area = length * width;
+		int perimeter = length + width;
 		
-		System.out.print("Area is :" + area);
+		System.out.println("Area is :" + area);
+		
+		System.out.println("Perimeter is :" + perimeter);
+		
 	}
 
 }
