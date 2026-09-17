@@ -30,28 +30,28 @@ public class GradeAvg2 {
 		
 		Avg1 = Grade1 / 1;
 		
-		System.out.println("Current Avergae : " +Avg1);
+		System.out.println("Current Average : " +Avg1);
 		
 		System.out.print("Enter 2nd Grade : ");
 		Grade2 = userinput.nextInt();
 		
 		Avg2 = (Grade1 + Grade2) / 2;	
 		
-		System.out.println("Current Avergae : " +Avg2);
+		System.out.println("Current Average : " +Avg2);
 		
 		System.out.print("Enter 3rd Grade : ");
 		Grade3 = userinput.nextInt();
 		
 		Avg3 = (Grade1 + Grade2 + Grade3) / 3;	
 		
-		System.out.println("Current Avergae : " +Avg3);
+		System.out.println("Current Average : " +Avg3);
 		
 		System.out.print("Enter 4rth Grade : ");
 		Grade4 = userinput.nextInt();
 		
 		Avg4 = (Grade1 + Grade2 + Grade3+ Grade4) / 4;
 		
-		System.out.println("Current Avergae : " +Avg4);
+		System.out.println("Current Average : " +Avg4);
 		
 		System.out.print("Enter 5th Grade : ");
 		Grade5 = userinput.nextInt();
@@ -67,12 +67,17 @@ public class GradeAvg2 {
 		/*
 		 * ScreenDump
 		  	
-		 *  Enter 1st Grade : 99
-			Enter 2nd Grade : 54
-			Enter 3rd Grade : 77
-			Enter 4rth Grade : 13
-			Enter 5th Grade : 100
-			Your Average is : 68
+		 * Enter 1st Grade : 55
+			Current Average : 55
+			Enter 2nd Grade : 13
+			Current Average : 34
+			Enter 3rd Grade : 99
+			Current Average : 55
+			Enter 4rth Grade : 99
+			Current Average : 66
+			Enter 5th Grade : 99
+			Your Final Average is : 73
+
 		 */
 		
 			
