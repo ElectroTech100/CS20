@@ -2,7 +2,7 @@ package Skill_builders;
 
 import java.util.Scanner;
 
-public class GradeAvg2 {
+public class Hurricane {
 
 	public static void main(String[] args)
 	{
