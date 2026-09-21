@@ -8,75 +8,49 @@ public class Hurricane {
 	{
 	
 		//Declaration
-		int Grade1;
-		int Grade2;
-		int Grade3;
-		int Grade4;
-		int Grade5;
-		
-		int Avg1;
-		int Avg2;
-		int Avg3;
-		int Avg4;
-		
-		
+		int Hcat;
 		
 		//Create Scanner Object from user
 		Scanner userinput = new Scanner(System.in);
 		
 		
-		System.out.print("Enter 1st Grade : ");
-		Grade1 = userinput.nextInt();
+		System.out.print("Enter the Category of the Hurricane from 1 - 5: ");
+		Hcat = userinput.nextInt();
 		
-		Avg1 = Grade1 / 1;
+		switch (Hcat) {
+		case 1:
+            System.out.println("Category 1 Wind Speeds: 74-95 mph or 64-82 kt or 119-153 km/hr");
+            System.out.println("Oh No! Get Shelter now!");
+            break;
+        case 2:
+            System.out.println("Category 2 Wind Speeds: 96-110 mph or 83-95 kt or 154-177 km/hr");
+            System.out.println("The Hurricane's getting serious!");
+            break;
+        case 3:
+            System.out.println("Category 3 Wind Speeds:  111-130 mph or 96-113 kt or 178-209 km/hr ");
+            System.out.println("Oh No! Get shelter NOW! Stay Undergrounds!");
+            break;
+        case 4:
+            System.out.println("Category 4 Wind Speeds: 131-155 mph or 114-135 kt or 210-249 km/hr");
+            System.out.println("Your in trouble, Dont go out!");
+            break;
+        case 5:
+            System.out.println("Category 5 Wind Speeds: greater than 155 mph or 135 kt or 249 km/hr ");
+            System.out.println("The Wind is faster than a 8KCAB Private Plane!");
+            break;
+		}
 		
-		System.out.println("Current Average : " +Avg1);
-		
-		System.out.print("Enter 2nd Grade : ");
-		Grade2 = userinput.nextInt();
-		
-		Avg2 = (Grade1 + Grade2) / 2;	
-		
-		System.out.println("Current Average : " +Avg2);
-		
-		System.out.print("Enter 3rd Grade : ");
-		Grade3 = userinput.nextInt();
-		
-		Avg3 = (Grade1 + Grade2 + Grade3) / 3;	
-		
-		System.out.println("Current Average : " +Avg3);
-		
-		System.out.print("Enter 4rth Grade : ");
-		Grade4 = userinput.nextInt();
-		
-		Avg4 = (Grade1 + Grade2 + Grade3+ Grade4) / 4;
-		
-		System.out.println("Current Average : " +Avg4);
-		
-		System.out.print("Enter 5th Grade : ");
-		Grade5 = userinput.nextInt();
-		
-		int Average = (Grade1 + Grade2 + Grade3 + Grade4 + Grade5) / 5 ; 
-		
-		System.out.println("Your Final Average is : " + Average );
 		
 		
 		
 		
 		
 		/*
-		 * ScreenDump
-		  	
-		 * Enter 1st Grade : 55
-			Current Average : 55
-			Enter 2nd Grade : 13
-			Current Average : 34
-			Enter 3rd Grade : 99
-			Current Average : 55
-			Enter 4rth Grade : 99
-			Current Average : 66
-			Enter 5th Grade : 99
-			Your Final Average is : 73
+		 Enter the Category of the Hurricane from 1 - 5: 4
+		 Category 4 Wind Speeds: 131-155 mph or 114-135 kt or 210-249 km/hr
+		 Your in trouble, Dont go out!
+		 
+		 
 
 		 */
 		
