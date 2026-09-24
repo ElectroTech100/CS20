@@ -43,7 +43,7 @@ public class Printing {
 		/*
 		 * 
 		 * Enter the amount of copies you need: 1025
-			Price per copy is $0.25
+			Price per copy is $0.25  
 			Total price is 256.25
 			
 			and

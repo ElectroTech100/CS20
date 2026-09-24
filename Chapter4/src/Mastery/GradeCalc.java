@@ -44,10 +44,11 @@ public class GradeCalc {
 		    System.out.println("Your Average is an F");
 		    System.out.println("Your failing school");
 		    
+
 		    }
 	    
 		/*
-		 * 
+		 *  
 		 *  Enter 1st Grade : 98
 			Enter 2nd Grade : 97
 			Enter 3rd Grade : 85
