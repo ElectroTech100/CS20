@@ -7,19 +7,26 @@ public class OddSum {
 	public static void main(String[] args)
 	{
 	
-	final int maxValue = 20;
-			
-			int newValue = 0;
-			
-			System.out.println("Even Numbers between 1 - 20 ");
+		int maxValue;
+		
+		int newValue = 1;
+		int added = 0;
+		//Create Scanner
+		Scanner userinput = new Scanner(System.in);
+		
+		
+		System.out.print("Enter a Maximum Number : ");
+		
+		maxValue = userinput.nextInt();
 			
 			while (newValue < maxValue)
 			{
 				
-				newValue += 3; 
+				added += newValue;
+				newValue += 2; 
 				
 				
-				System.out.println(newValue);
+				System.out.println("The Sum of the odd numbers is : " +added);
 			}
 			
 		
