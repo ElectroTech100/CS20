@@ -2,7 +2,7 @@ package Skill_builders;
 
 import java.util.Scanner;
 
-public class OddSum {
+public class NumberSum {
 
 	public static void main(String[] args)
 	{
@@ -19,14 +19,14 @@ public class OddSum {
 		
 		maxValue = userinput.nextInt();
 			
-			while (newValue <= maxValue)
+			while (newValue < maxValue)
 			{
 				
 				added += newValue;
-				newValue += 1; 
+				newValue += 2; 
 				
 				
-				System.out.println("The Sum of the numbers is : " +added);
+				System.out.println("The Sum of the odd numbers is : " +added);
 			}
 			
 		
