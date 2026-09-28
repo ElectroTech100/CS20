@@ -2,7 +2,7 @@ package Skill_builders;
 
 import java.util.Scanner;
 
-public class Evens {
+public class OddSum {
 
 	public static void main(String[] args)
 	{
@@ -16,15 +16,12 @@ public class Evens {
 			while (newValue < maxValue)
 			{
 				
-				newValue += 2; 
+				newValue += 3; 
 				
 				
 				System.out.println(newValue);
 			}
 			
-	
-
-	
 		
 	}
 
