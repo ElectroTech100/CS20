@@ -9,12 +9,16 @@ public class Digitsum {
 		        int value;
 		        int total = 0;
 		        
+		        
+		        
 		       // create the scanner
 		        Scanner userinput = new Scanner(System.in);
 		        
-		        System.out.print("Enter a multi-digit Number : ");
+		        System.out.print("Enter a positive Number : ");
 		        value = userinput.nextInt();
 		        
+		        System.out.print("Enter another positive Number : ");
+		        value = userinput.nextInt();
 		    
 		        int t = value; 
 		            
