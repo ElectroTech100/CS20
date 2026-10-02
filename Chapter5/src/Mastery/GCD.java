@@ -27,9 +27,9 @@ public class GCD {
 		            num2 = temp;       		    
 		            
 		        }
-		            
+		          
 		        System.out.println("The GCD of the numbers is : " + num1);
-
+		        
 		    }
 		
 	/*
