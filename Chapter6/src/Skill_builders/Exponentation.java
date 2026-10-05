@@ -2,7 +2,7 @@ package Skill_builders;
 
 import java.util.Scanner;
 
-public class OddSum {
+public class Exponentation {
 
 	public static void main(String[] args)
 	{
