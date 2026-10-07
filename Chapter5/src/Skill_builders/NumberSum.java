@@ -27,9 +27,12 @@ public class NumberSum {
 				
 				
 				System.out.println("The Sum of the odd numbers is : " +added);
+				
+
 			}
 			
 		
 	}
 
 }
+
