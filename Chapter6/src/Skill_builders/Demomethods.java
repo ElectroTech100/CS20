@@ -8,7 +8,7 @@ public class Demomethods
 	}
 
 
-
+ghuig
 	//Method 1 : No parameters, No return Value
 	public static void displayMessage()
 	{
