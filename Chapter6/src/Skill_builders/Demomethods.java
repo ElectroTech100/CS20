@@ -19,7 +19,7 @@ public class Demomethods
 	//Method 2 : One Parameter, No return Value
 	public static void greetStudent(String name)
 	{
-		System.out.println("Hello, " + name);
+		System.out.println("Hello, " + name); //hi
 	}
 	
 	
