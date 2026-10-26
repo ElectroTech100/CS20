@@ -4,32 +4,30 @@ import java.util.Scanner;
 
 public class Exponentation {
 
-	public static void main(String[] args)
-	{
-	
-		int maxValue;
-		
-		int newValue = 1;
-		int added = 0;
-		//Create Scanner
-		Scanner userinput = new Scanner(System.in);
-		
-		
-		System.out.print("Enter a Maximum Number : ");
-		
-		maxValue = userinput.nextInt();
-			
-			while (newValue <= maxValue)
-			{
-				
-				added += newValue;
-				newValue += 1; 
-				
-				
-				System.out.println("The Sum of the numbers is : " +added);
-			}
-			
-		
-	}
 
-}
+	    public static void main(String[] args) {
+	        Scanner input = new Scanner(System.in);
+
+	        System.out.println("Exponentiation: ");
+	        
+	        
+	        System.out.print("Enter the base number: ");
+	        double base = input.nextDouble();
+
+	
+	        System.out.print("Enter the exponent: ");
+	        double exponent = input.nextDouble();
+
+	
+	        double result = powerOf(base, exponent);
+
+
+	        System.out.println("\n" + base + " raised to the power of " + exponent + " is: " + result);
+
+	        input.close();
+	    }
+
+	    public static double powerOf(double base, double exponent) {
+	        return Math.pow(base, exponent);
+	    }
+	}
