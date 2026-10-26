@@ -40,9 +40,9 @@ public class GameCharacter
 		}
 	}
 	
-	public string getStatus()
+	public String getStatus()
 	{
-		return name + "has" +health "health.";
+		return name + "has" +health + "health.";
 	}
 
 	
