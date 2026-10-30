@@ -25,7 +25,7 @@ public class GameCharacter
 	//method 1
 	 public void attack()
 	 {
-		 System.out.println(name + "attacks! Deals 10 Damage");
+		 System.out.println(name + " attacks! Deals 10 Damage ");
 		 
 	 }
 	//method 2
@@ -36,13 +36,13 @@ public class GameCharacter
 		if (health > 0)
 		{
 			health = 0;
-			System.out.println(name + "'s health is now " +health);
+			System.out.println(name + "  's health is now  " +health);
 		}
 	}
 	
 	public String getStatus()
-	{
-		return name + "has" +health + "health.";
+	{ 
+		return name + " has " +health + " health.";
 	}
 
 	
