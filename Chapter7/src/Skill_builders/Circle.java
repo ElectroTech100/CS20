@@ -11,7 +11,7 @@ public class Circle
 		radius = 1.0;
 	}
 	
-	// accesor method
+	// Accessor method
 	public double getRadius()
 	{
 		return radius;
@@ -32,6 +32,30 @@ public class Circle
 	{
 		return("The Radius is: "+ radius);
 	}
+	
+	//Area Method
+	public double area()
+	{
+		double cArea;	
+		cArea = PI * radius * radius;
+		return cArea;
+	}
+	//Circumference Method
+	public double circumference()
+	{
+		double cCir;
+		cCir = 2 * PI * radius ;
+		return cCir;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
 
 
